@@ -10,7 +10,9 @@ Program umožní extrahovat údaje z výsledků parlamentní voleb v roce [2017]
 Umí získat kód a název obce, počet voličů v obci, vydané obálky a platné hlasy, dále pak všechny kandidující strany a počet získaných hlasů.
 Údaje poté uloží do csv souboru se zvoleným názvem.
 
-## Použité knihovny
+## Použité knihovny a verze Pythonu
+
+Tento program vyžaduje **Python 3.9** a novější.
 
 Knihovny nutné ke spuštění programu jsou uvedeny v souboru `requirements.txt`.  
 K instalaci externích knihoven je vhodné použít virtuální prostředí.  
@@ -66,6 +68,8 @@ It retrieves the code and name of individual locations, number of registered vot
 The data is then saved to a csv file using the name specified by the user.
 
 ## Dependencies
+
+This program requires **Python 3.9** or newer.
 
 The packages necessary to run the program are specified in `requirements.txt`.  
 A virtual environment is recommended to install external packages.  
